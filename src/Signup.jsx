@@ -10,7 +10,7 @@ const Signup = () => {
 
     // Initialize Rive Animation
     const { RiveComponent, rive } = useRive({
-        src: "src/assets/Rive/animated_login_screen.riv", // Path to your Rive file
+        src: "/animated_login_screen.riv", // Path to your Rive file
         stateMachines: "Login Machine", // Exact name of the state machine in your Rive file
         autoplay: true,
     })
